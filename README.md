@@ -62,7 +62,7 @@ git clone https://github.com/Mr-Jack-Tung/CustomSingleBlockGPT2_238k_params_Tiny
 cd CustomSingleBlockGPT2_238k_params_TinyStories_OMG
 python3.10 -m venv .venv
 source .venv/bin/activate
-pip install datasets==3.6.0 torch=2.2.2 numpy==1.26.4
+pip install datasets==3.6.0 torch==2.2.2 numpy==1.26.4
 python continuous_training_custom_single_block_gpt2_tinydataset.py # Example command
 ```
 
