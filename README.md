@@ -2,7 +2,7 @@
 
 This project demonstrates the training of a custom, single-block GPT-2-like language model on the TinyStories dataset. A key feature of this implementation is **continuous training**, allowing the training process to be stopped and resumed from the last saved checkpoint. The model has approximately **238,000 parameters**.
 
-This version is adapted to train on the **TinyStories dataset**, demonstrating its ability to learn from a larger corpus of text and generate simple stories.
+This version is adapted to train on the **TinyStories dataset** (https://huggingface.co/datasets/roneneldan/TinyStories), demonstrating its ability to learn from a larger corpus of text and generate simple stories.
 
 Đánh dấu một bước tiến trong việc huấn luyện một mô hình GPT-2 tùy chỉnh trên tập dữ liệu lớn hơn như TinyStories. Điểm nổi bật của dự án này là khả năng **huấn luyện liên tục (continuous training)**, cho phép lưu lại trạng thái và tiếp tục quá trình huấn luyện từ checkpoint gần nhất. Mô hình này có khoảng **238,000 tham số**.
 
